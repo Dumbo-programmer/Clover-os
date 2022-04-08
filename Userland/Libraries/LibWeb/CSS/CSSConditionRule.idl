@@ -1,0 +1,5 @@
+#import <CSS/CSSGroupingRule.idl>
+
+interface CSSConditionRule : CSSGroupingRule {
+    attribute CSSOMString conditionText;
+};
